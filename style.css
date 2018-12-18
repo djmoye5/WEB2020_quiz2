@@ -1,0 +1,75 @@
+#tracker{
+    height: 100px;
+	width: 100px;
+	background-color: white;
+	color: blue;
+	font-size: 36px;
+	position: absolute;
+	right: -1px;
+	top: 101px;
+}
+
+#boxes{
+    text-align: center;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/71mztnsOLzL._SY606_.jpg);
+    height: 4500px;
+    width: 100%;
+
+}
+
+#redBox{
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    height: 250px;
+    width: 100%;
+	background-color: red;
+	overflow: scroll;
+	color: white;
+	font-size: 24px;
+}
+#blueBox{
+    position: absolute;
+    top: 900px;
+    visibility: hidden;
+    height: 250px;
+    width: 100%;
+	background-color: blue;
+	overflow: scroll;
+	color: white;
+	font-size: 24px;
+}
+#yellowBox{
+    position:absolute;
+    top: 1800px;
+    visibility: hidden;
+    height: 250px;
+    width: 100%;
+	background-color: yellow;
+	overflow: scroll;
+	color: black;
+	font-size: 24px;
+}
+#orangeBox{
+    position: absolute;
+    top: 2700px;
+    visibility: hidden;
+    height: 250px;
+    width: 100%;
+	background-color: orange;
+	overflow: scroll;
+	color: black;
+	font-size: 24px;
+}
+#greenBox{
+    position: absolute;
+    top: 3600px;
+    visibility: hidden;
+    height: 250px;
+    width: 100%;
+	background-color: green;
+	overflow: scroll;
+	color: white;
+	font-size: 24px;
+}
+
